@@ -61,11 +61,12 @@ ul li a:hover + .hidden, .hidden:hover {
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
     text-decoration: none;
     color: #fff;
     background: #19c589;
     text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
     display: none;
 }
 /*Hide checkbox*/
