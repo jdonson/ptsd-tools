@@ -2,35 +2,20 @@
 <html lang="en-US" prefix="">
 <head>
  <title>PCL-5, MONTHLY</title>
- <link rel='stylesheet' id='gt_twitter-css'  href='https://www.confluent.io/wp-content/tweets.css?ver=1.0' type='text/css' media='all' />
+ <link rel="stylesheet" href="styles.css">
  <script type='text/javascript'></script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta property="og:image:height" content="200" />
  <meta name="twitter:card" content="summary" />
 </head>
-<style>
-
-</style>
+<style></style>
 <body>
- <h3><u>PTSD CHECKLIST</u></h3>
- <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
+<label for="show-menu" class="show-menu">Show Menu</label><input type="checkbox" id="show-menu" role="button">
+<ul id="menu"><li><a href="#">Home+Login</a></li><li><a href="#">About</a></li><li><a href="#">Counselor Registration</a></li><li><a href="#">Patient Registration</a></li><li><a href="">Traumatic Events Inventory</a></li><li><a href="#">Weekly Assessment</a></li><li><a href="#">Monthly Assessment</a></li><li><a href="#">Reference Glossary</a></li></ul>
 <hr/>
-<ul id="nav">
-<li>
-<a href="">Home</a>
-</li>
-<li>
-<a href="">Counselor Registration</a>
-</li>
-<li>
-<a href="">Patient Registration</a>
-</li>
-<li>
-<a href="">Weekly Assessment</a>
-</li>
-<li>
-<a href="">Monthly Assessment</a>
-</li>
-</ul>
+ <h3><u>PTSD CHECKLIST FORM</u></h3>
+ <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
 <hr/>
  <form action="monthly-form-processing.">
 <ul><li>
@@ -56,10 +41,14 @@ PERSONAL DATA PRIVACY SETTINGS:
 </li></ul>
 
 <hr/>
+THIS FORM ASSUMES THAT YOU ARE:<br/>
+- Registered as a patient with interest in evaluating the value of a ptsd diagnosis and treatments.<br/>
+- Developing a list of identified past traumas which can trigger negative associated behaviors in the present.<br/>
+- Interested in setting baselines for negative associated behaviors, against which we can track progress.<br/>
 INSTRUCTIONS:<br/>
 Below is a list of problems that people sometimes have in response to a very stressful experience.<br/>
 Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
-how much you have been bothered by that problem in the past month.
+how much you have been bothered by that problem in the past month, in aggregate.
 <hr/>
 <ol><li>
 Repeated, disturbing, and unwanted memories of the stressful experience:
@@ -80,7 +69,8 @@ Repeated disturbing dreams of the stressful event:
     <option value="4">Extremely. (4)</option>
   </select>
   </li><hr/><li>
-Repeated disturbing dreams of the stressful event:
+Suddenly feeling or acting as if the stressful experience were<br/>
+actually happening again (as if you were actually back there reliving it):
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
     <option value="1">A Little Bit. (1)</option>
@@ -89,7 +79,7 @@ Repeated disturbing dreams of the stressful event:
     <option value="4">Extremely. (4)</option>
   </select>
   </li><hr/><li>
-Repeated disturbing dreams of the stressful event:
+Feeling very upset when something reminded you of the stressful experience:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
     <option value="1">A Little Bit. (1)</option>
@@ -98,7 +88,8 @@ Repeated disturbing dreams of the stressful event:
     <option value="4">Extremely. (4)</option>
   </select>
   </li><hr/><li>
-Repeated disturbing dreams of the stressful event:
+Having strong physical reactions when something reminded you of the stressful experience,
+for example, heart pounding, trouble breathing, sweating:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
     <option value="1">A Little Bit. (1)</option>
@@ -107,7 +98,7 @@ Repeated disturbing dreams of the stressful event:
     <option value="4">Extremely. (4)</option>
   </select>
   </li><hr/><li>
-Repeated disturbing dreams of the stressful event:
+Avoiding memories, thoughts, or feelings related to the stressful experience:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
     <option value="1">A Little Bit. (1)</option>
@@ -115,26 +106,23 @@ Repeated disturbing dreams of the stressful event:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-</li>
-  </li><hr/><li>
-  I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
 </li>
 </ol>
-<footer>
+  </li>
   <hr/>
-  <input type="submit" value="Submit"></footer>
+  I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
+  <hr/><input type="submit" value="Submit">
+<footer>
+</footer>
  </form>
 </body>
 </html>
 <!--
 
-
-
-
 Individual
-Group
-CPT-C
-CPT
+Group:
+CPT: Cognitive Processing Therapy
+CPT-C: Civilian Version
 
 ---
 utf8+
