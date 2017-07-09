@@ -1,0 +1,18 @@
+Counselor ID:   {{ counselor_id }}
+
+Patient ID:     {{ patient_id }}
+
+Date Stamp:     {{ date_stamp }}
+
+First Name:     {{ first_name }}
+
+Location:       {{ pid_location }}
+
+Email:          {{ pid_email }}
+
+
+
+---
+patients --< sessions
+  |
+  |--< tests
