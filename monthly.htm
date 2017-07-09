@@ -19,6 +19,7 @@
 			<ul class="hidden">
 				<li><a href="#">Who We Are</a></li>
 				<li><a href="#">What We Do</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</li>
 		<li>
@@ -31,14 +32,15 @@
  				<li><a href="#">PCL-5 Monthly</a></li>
 			</ul>
 		</li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Glossary</a></li>
 	</ul>
 <br/><br/>
  <h3><u>PTSD CHECKLIST FORM</u></h3>
  <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
+ <hr/>
  <form action="monthly-form-processing">
-<ol><li>
+
 PERSONAL DATA PRIVACY SETTINGS:
   <select id="security-cfg">
    <option value="none">No Personal Data Retention Anywhere (Default)</option>
@@ -46,7 +48,8 @@ PERSONAL DATA PRIVACY SETTINGS:
    <option value="none">SERVER SIDE Encrypted Data Retention</option>
    <option value="none">Unencrypted Data Retention</option>
   <select>
-</li><li>
+<br/>
+
  Format of CPT:
   <select id="cpt-format">
    <option value="individual">Individual</option>
@@ -54,12 +57,11 @@ PERSONAL DATA PRIVACY SETTINGS:
    <option value="cptc">CPT-C</option>
    <option value="cpt">CPT</option>
   </select>
-</li><li>
+<br/>
      Patient ID: <input id="patient-id" type="text" name="pid" maxlength="4" size="4">
-</li><li>
+<br/>
      Counselor ID: <input id="counselor-id" type="text" name="cid" maxlength="4" size="4">
-</li></ol>
-
+<br/>
 <hr/>
 THIS FORM ASSUMES THAT YOU ARE:<br/>
 - Registered as a patient with interest in evaluating the value of a ptsd diagnosis and treatments.<br/>
@@ -69,8 +71,7 @@ INSTRUCTIONS:<br/>
 Below is a list of problems that people sometimes have in response to a very stressful experience.<br/>
 Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
 how much you have been bothered by that problem in the past month, in aggregate.
-<hr/>
-<ol><li>
+<br/>
 Repeated, disturbing, and unwanted memories of the stressful experience:
   <select id="weekly-01">
     <option value="0">Not At All. (0)</option>
@@ -79,7 +80,7 @@ Repeated, disturbing, and unwanted memories of the stressful experience:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-  </li><hr/><li>
+<br/>
 Repeated disturbing dreams of the stressful event:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
@@ -88,8 +89,8 @@ Repeated disturbing dreams of the stressful event:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-  </li><hr/><li>
-Suddenly feeling or acting as if the stressful experience were<br/>
+<br/>
+Suddenly feeling or acting as if the stressful experience were
 actually happening again (as if you were actually back there reliving it):
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
@@ -98,7 +99,7 @@ actually happening again (as if you were actually back there reliving it):
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-  </li><hr/><li>
+<br/>
 Feeling very upset when something reminded you of the stressful experience:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
@@ -107,7 +108,7 @@ Feeling very upset when something reminded you of the stressful experience:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-  </li><hr/><li>
+<br/>
 Having strong physical reactions when something reminded you of the stressful experience,
 for example, heart pounding, trouble breathing, sweating:
   <select id="weekly-02">
@@ -117,7 +118,7 @@ for example, heart pounding, trouble breathing, sweating:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-  </li><hr/><li>
+<br/>
 Avoiding memories, thoughts, or feelings related to the stressful experience:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
@@ -126,12 +127,10 @@ Avoiding memories, thoughts, or feelings related to the stressful experience:
     <option value="3">Quite A Bit. (3) </option>
     <option value="4">Extremely. (4)</option>
   </select>
-</li>
-</ol>
-  </li>
-  <hr/>
-  I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
-  <hr/><input type="submit" value="Submit">
+<br/>
+<hr/>
+I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
+<input type="submit" value="Submit">
 <footer>
 </footer>
  </form>
