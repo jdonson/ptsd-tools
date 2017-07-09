@@ -9,26 +9,35 @@
  <meta property="og:image:height" content="200" />
  <meta name="twitter:card" content="summary" />
 </head>
-<style></style>
 <body>
 <label for="show-menu" class="show-menu">Show Menu</label>
 <input type="checkbox" id="show-menu" role="button">
-<ul id="menu">
-<li><a href="#">Home</a></li>
-<li><a href="#">About &#65516;</a></li>
-<!--    <ul class="hidden"><li><a href="#">Glossary</a></li><li><a href="#">References</a></li></ul> -->
-<li><a href="#">Register &#65516;</a></li>
-<!--  <ul class="hidden"><li><a href="#">New Counselor</a></li><li><a href="#">New Patient</a></li></ul>  -->
-<li><a href="#">Forms &#65516;</a></li>
-<!--  <ul><li><a href="#">Weekly PCL-5</a></li><li><a href="#">Monthly PCL-5</a></li><li><a href="">Traumas</a></li></ul>  -->
-<li><a href="#">Glossary</a></li><li><a href="#">References</a></li>
-</ul>
-<hr/>
+
+	<ul id="menu">
+		<li><a href="#">Home</a></li>
+		<li>
+			<a href="#">About &#65516;</a>
+			<ul class="hidden">
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Do</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Portfolio &#65516;</a>
+			<ul class="hidden">
+				<li><a href="#">Photography</a></li>
+				<li><a href="#">Web &amp; User Interface Design</a></li>
+				<li><a href="#">Illustration</a></li>
+			</ul>
+		</li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+
  <h3><u>PTSD CHECKLIST FORM</u></h3>
  <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
-<hr/>
  <form action="monthly-form-processing.">
-<ul><li>
+<ol><li>
 PERSONAL DATA PRIVACY SETTINGS:
   <select id="security-cfg">
    <option value="none">No Personal Data Retention Anywhere (Default)</option>
@@ -48,7 +57,7 @@ PERSONAL DATA PRIVACY SETTINGS:
      Patient ID: <input id="patient-id" type="text" name="pid" maxlength="4" size="4">
 </li><li>
      Counselor ID: <input id="counselor-id" type="text" name="cid" maxlength="4" size="4">
-</li></ul>
+</li></ol>
 
 <hr/>
 THIS FORM ASSUMES THAT YOU ARE:<br/>

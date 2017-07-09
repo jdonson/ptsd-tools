@@ -1,0 +1,10 @@
+<ul id="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">About &#65516;</a></li>
+<!--    <ul class="hidden"><li><a href="#">Glossary</a></li><li><a href="#">References</a></li></ul> -->
+<li><a href="#">Register &#65516;</a></li>
+<!--  <ul class="hidden"><li><a href="#">New Counselor</a></li><li><a href="#">New Patient</a></li></ul>  -->
+<li><a href="#">Forms &#65516;</a></li>
+<!--  <ul><li><a href="#">Weekly PCL-5</a></li><li><a href="#">Monthly PCL-5</a></li><li><a href="">Traumas</a></li></ul>  -->
+<li><a href="#">Glossary</a></li><li><a href="#">References</a></li>
+</ul>
