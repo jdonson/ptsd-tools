@@ -1,3 +1,13 @@
+HOME
+|- about
+|    |- who we are
+|    |- what we do
+|    |- glossary
+|    |- reference
+|
+|- register
+|- forms
+
 <ul id="menu">
 <li><a href="#">Home</a></li>
 <li><a href="#">About &#65516;</a></li>
