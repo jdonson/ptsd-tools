@@ -1,43 +1,133 @@
-<html lang="en-US" prefix=""><head><title>PCL-5, MONTHLY</title>
-<link rel='stylesheet' id='gt_twitter-css'  href='https://www.confluent.io/wp-content/tweets.css?ver=1.0' type='text/css' media='all' />
-<script type='text/javascript'>
-<meta property="og:image:height" content="200" />
-<meta name="twitter:card" content="summary" />
+<!DOCTYPE html>
+<html lang="en-US" prefix="">
+<head>
+ <title>PCL-5, MONTHLY</title>
+ <link rel='stylesheet' id='gt_twitter-css'  href='https://www.confluent.io/wp-content/tweets.css?ver=1.0' type='text/css' media='all' />
+ <script type='text/javascript'></script>
+ <meta property="og:image:height" content="200" />
+ <meta name="twitter:card" content="summary" />
 </head>
-<style></style>
+<style>
+
+</style>
 <body>
-<h3>PTSD CHECKLIST</h3>
-<h5>STRESS LEVELS - MONTHLY ASSESSMENT</h5>
-<form action="/action_page.php">
-  Date [YYYYMMDD]: <input type="text" name="datefield" size="8"><br/>
-  Patient ID: <input type="text" name="pin" maxlength="4" size="4"><br/>
-Format of CPT:
-<select>
-  <option value="individual">Individual</option>
-  <option value="group">Group</option>
-  <option value="cptc">CPT-C</option>
-  <option value="cpt">CPT</option>
-</select>
+ <h3><u>PTSD CHECKLIST</u></h3>
+ <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
 <hr/>
-Instructions:
-Below is a list of problems that people sometimes have in response to a very stressful experience.
-Please read each problem carefully and then circle one of the numbers to the right to indicate
+<ul id="nav">
+<li>
+<a href="">Home</a>
+</li>
+<li>
+<a href="">Counselor Registration</a>
+</li>
+<li>
+<a href="">Patient Registration</a>
+</li>
+<li>
+<a href="">Weekly Assessment</a>
+</li>
+<li>
+<a href="">Monthly Assessment</a>
+</li>
+</ul>
+<hr/>
+ <form action="monthly-form-processing.">
+<ul><li>
+PERSONAL DATA PRIVACY SETTINGS:
+  <select id="security-cfg">
+   <option value="none">No Personal Data Retention Anywhere (Default)</option>
+   <option value="none">LOCAL ONLY Encrypted Data Retention</option>
+   <option value="none">SERVER SIDE Encrypted Data Retention</option>
+   <option value="none">Unencrypted Data Retention</option>
+  <select>
+</li><li>
+ Format of CPT:
+  <select id="cpt-format">
+   <option value="individual">Individual</option>
+   <option value="group">Group</option>
+   <option value="cptc">CPT-C</option>
+   <option value="cpt">CPT</option>
+  </select>
+</li><li>
+     Patient ID: <input id="patient-id" type="text" name="pid" maxlength="4" size="4">
+</li><li>
+     Counselor ID: <input id="counselor-id" type="text" name="cid" maxlength="4" size="4">
+</li></ul>
+
+<hr/>
+INSTRUCTIONS:<br/>
+Below is a list of problems that people sometimes have in response to a very stressful experience.<br/>
+Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
 how much you have been bothered by that problem in the past month.
 <hr/>
-1. Repeated, disturbing, and unwanted memories of the stressful experience?:
-<select>
-  <option value="0">Not at all</option>
-  <option value="1">A little bit</option>
-  <option value="2">Moderate</option>
-  <option value="3">Quite a Bit </option>
-  <option value="4">Extremely</option>
-</select>
-
-<input type="submit" value="Submit">
-</form>
-<footer></footer>
+<ol><li>
+Repeated, disturbing, and unwanted memories of the stressful experience:
+  <select id="weekly-01">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+  </li><hr/><li>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+  </li><hr/><li>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+  </li><hr/><li>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+  </li><hr/><li>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+  </li><hr/><li>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+</li>
+  </li><hr/><li>
+  I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
+</li>
+</ol>
+<footer>
+  <hr/>
+  <input type="submit" value="Submit"></footer>
+ </form>
 </body>
 </html>
+<!--
+
 
 
 
@@ -52,11 +142,6 @@ generate page
 generate form
 generate form processor
 
----
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 ---
 PAGE VARIABLES & VALUES:
 - prefix: ??
@@ -75,3 +160,8 @@ PAGE VARIABLES & VALUES:
   - subheader
 - footer
 
+-->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
