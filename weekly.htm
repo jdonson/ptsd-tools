@@ -1,3 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="">
+<head>
+ <title>PCL-5, Weekly</title>
+ <link rel="stylesheet" href="styles.css">
+ <script type='text/javascript'></script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta property="og:image:height" content="200" />
+ <meta name="twitter:card" content="summary" />
+</head>
+<body>
+<label for="show-menu" class="show-menu">Show Menu</label>
+<input type="checkbox" id="show-menu" role="button">
+	<ul id="menu">
+		<li><a href="#">Home</a></li>
+		<li>
+			<a href="#">About &#65516;</a>
+			<ul class="hidden">
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Do</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Forms &#65516;</a>
+			<ul class="hidden">
+				<li><a href="#">New Counselor</a></li>
+				<li><a href="#">New Patient</a></li>
+				<li><a href="#">Traumas</a></li>
+				<li><a href="#">PCL-5 Weekly</a></li>
+ 				<li><a href="#">PCL-5 Monthly</a></li>
+			</ul>
+		</li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Glossary</a></li>
+	</ul>
+<br/><br/>
+ <h3><u>PTSD CHECKLIST FORM</u></h3>
+ <h4>WEEKLY ASSESSMENT: STRESS LEVELS</h4>
+<hr/>
+FORM PREREQUISITES:<br/>
+- Registered as a patient with interest in evaluating the value of a ptsd diagnosis and treatments.<br/>
+- Developing a list of identified past traumas which can trigger negative associated behaviors in the present.<br/>
+- Interested in setting baselines for negative associated behaviors, against which we can track progress.<br/>
+<hr/>
+FORM INSTRUCTIONS:<br/>
+Below is a list of problem behaviors that people sometimes have in response to a very stressful experience.<br/>
+Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
+how much you have been bothered by that problem in the past month, in aggregate.<br/>
+All fields must be populated for a succesful submit.
+<hr/>
+<form action="monthly-form-processing" method="post">
+  <fieldset>
+
+PERSONAL DATA PRIVACY SETTINGS:
+  <select id="security-cfg">
+   <option value="none">No Personal Data Retention Anywhere (Default)</option>
+   <option value="none">LOCAL ONLY Encrypted Data Retention</option>
+   <option value="none">SERVER SIDE Encrypted Data Retention</option>
+   <option value="none">Unencrypted Data Retention</option>
+  <select>
+<br/>
+
+ Format of CPT:
+  <select id="cpt-format">
+   <option value="individual">Individual</option>
+   <option value="group">Group</option>
+   <option value="cptc">CPT-C</option>
+   <option value="cpt">CPT</option>
+  </select>
+<br/>
+     Patient ID: <input id="patient-id" type="text" name="pid" maxlength="4" size="4">
+<br/>
+     Counselor ID: <input id="counselor-id" type="text" name="cid" maxlength="4" size="4">
+<hr/>
+ASSESSMENT QUESTIONS:<br/>
+Repeated, disturbing, and unwanted memories of the stressful experience:
+  <select id="weekly-01">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Repeated disturbing dreams of the stressful event:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Suddenly feeling or acting as if the stressful experience were
+actually happening again (as if you were actually back there reliving it):
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Feeling very upset when something reminded you of the stressful experience:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Having strong physical reactions when something reminded you of the stressful experience,
+for example, heart pounding, trouble breathing, sweating:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Avoiding memories, thoughts, or feelings related to the stressful experience:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Avoiding external reminders of the stressful experience 
+(for example, people, places, conversations, activities, objects, or situations):
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Trouble remembering important parts of the stressful experience:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as: I am bad,
+there is something seriously wrong with me, no one can be trusted, the world is completely dangerous):
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Blaming yourself or someone else for the stressful experience or what happened after it:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Having strong negative feelings such as fear, horror, anger, guilt, or shame:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Loss of interest in activities that you used to enjoy:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Trouble experiencing positive feelings (for example, being
+unable to feel happiness or have loving feelings for people close to you:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Irritable behavior,angry outbursts,or acting aggressively:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Taking too many risks or doing things that could cause you harm:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Being “superalert” or watchful or on guard?
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Feeling jumpy or easily startled?
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Having difficulty concentrating:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Trouble falling or staying asleep:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+<hr/>
+I AM NOT A ROBOT [4+7]: <input type=text size=3><br/>
+<input type="submit" value="Submit">
+<footer>
+</footer>
+  </fieldset>
+ </form>
+</body>
+</html>
+<!--
+
+Individual
+Group:
+CPT: Cognitive Processing Therapy
+CPT-C: Civilian Version
+
+---
+utf8+
+generate page
+generate form
+generate form processor
+
+---
+PAGE VARIABLES & VALUES:
+- prefix: ??
+- title: PCL-5, MONTHLY
+- links:
+- meta:
+  - properties:
+    - property:
+    - content:
+  - names:
+    - name:
+    - content:
+
+- content
+  - header
+  - subheader
+- footer
+
+-->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
 PTSD CHECK LIST
 WEEKLY STRESS LEVELS ASSESSMENT
 
