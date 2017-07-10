@@ -38,8 +38,18 @@
 <br/><br/>
  <h3><u>PTSD CHECKLIST FORM</u></h3>
  <h4>MONTHLY ASSESSMENT: STRESS LEVELS</h4>
- <hr/>
- <form action="monthly-form-processing">
+<hr/>
+FORM PREREQUISITES:<br/>
+- Registered as a patient with interest in evaluating the value of a ptsd diagnosis and treatments.<br/>
+- Developing a list of identified past traumas which can trigger negative associated behaviors in the present.<br/>
+- Interested in setting baselines for negative associated behaviors, against which we can track progress.<br/>
+<hr/>
+FORM INSTRUCTIONS:<br/>
+Below is a list of problem behaviors that people sometimes have in response to a very stressful experience.<br/>
+Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
+how much you have been bothered by that problem in the past month, in aggregate.  All fields must be populated for a succesful submit.
+<hr/>
+<form action="monthly-form-processing">
 
 PERSONAL DATA PRIVACY SETTINGS:
   <select id="security-cfg">
@@ -61,17 +71,8 @@ PERSONAL DATA PRIVACY SETTINGS:
      Patient ID: <input id="patient-id" type="text" name="pid" maxlength="4" size="4">
 <br/>
      Counselor ID: <input id="counselor-id" type="text" name="cid" maxlength="4" size="4">
-<br/>
 <hr/>
-THIS FORM ASSUMES THAT YOU ARE:<br/>
-- Registered as a patient with interest in evaluating the value of a ptsd diagnosis and treatments.<br/>
-- Developing a list of identified past traumas which can trigger negative associated behaviors in the present.<br/>
-- Interested in setting baselines for negative associated behaviors, against which we can track progress.<br/>
-INSTRUCTIONS:<br/>
-Below is a list of problems that people sometimes have in response to a very stressful experience.<br/>
-Please read each problem carefully and then circle one of the numbers to the right to indicate<br/>
-how much you have been bothered by that problem in the past month, in aggregate.
-<br/>
+ASSESSMENT QUESTIONS:<br/>
 Repeated, disturbing, and unwanted memories of the stressful experience:
   <select id="weekly-01">
     <option value="0">Not At All. (0)</option>
@@ -111,6 +112,24 @@ Feeling very upset when something reminded you of the stressful experience:
 <br/>
 Having strong physical reactions when something reminded you of the stressful experience,
 for example, heart pounding, trouble breathing, sweating:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Avoiding memories, thoughts, or feelings related to the stressful experience:
+  <select id="weekly-02">
+    <option value="0">Not At All. (0)</option>
+    <option value="1">A Little Bit. (1)</option>
+    <option value="2">Moderate. (2)</option>
+    <option value="3">Quite A Bit. (3) </option>
+    <option value="4">Extremely. (4)</option>
+  </select>
+<br/>
+Avoiding memories, thoughts, or feelings related to the stressful experience:
   <select id="weekly-02">
     <option value="0">Not At All. (0)</option>
     <option value="1">A Little Bit. (1)</option>
