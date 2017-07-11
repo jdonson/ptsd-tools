@@ -1,0 +1,12 @@
+0.  osx-ds-stores.sh
+1.  What css is being used?
+2.  How can we start testing:
+    - curl
+    - selenium
+    - webthumb
+3.  Meta tags
+4.  jquery  which one?
+5.  includes
+6.  templates - mustache, pystache, jinja2
+7.  multi-lingual =>
+8.  
