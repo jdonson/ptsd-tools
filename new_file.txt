@@ -1,0 +1,31 @@
+GIITHUB ISSUES:
+0.  osx-ds-stores.sh
+1.  What css is being used?
+2.  How can we start testing:
+    - curl
+    - selenium
+    - webthumb
+3.  Meta tags
+4.  jquery  which one?
+5.  includes
+6.  templates - mustache, pystache, jinja2
+7.  patient registration
+8.  counselor registration
+9.  multi-lingual =>
+10. 
+---
+Assessment Issues:
+- monthly + criterion + weekly
+- ?worst event
+- trust issues
+- boundary issues
+- cptsd?
+---
+patient registration:
+-
+---
+counselor registration:
+-
+---
+intro:
+-
